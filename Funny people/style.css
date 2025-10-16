@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+#container {
+    display: flex;
+}
+
+#left-column {
+    width: 60%;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+#left-column img {
+    cursor: grab;
+    margin: 5px;
+    object-fit: contain;
+    position: relative;
+    z-index: 10; /* draggable items on top */
+}
+
+/* Default draggable size */
+.draggable {
+    width: 50px;
+    height: 50px;
+}
+
+/* Eyes */
+img[src*="eyes"] {
+    width: 40px;
+    height: 40px;
+}
+
+/* Face hair */
+img[src*="face-hair"] {
+    width: 55px;
+    height: 55px;
+}
+
+/* Hair slightly bigger */
+img[src*="hair"] {
+    width: 90px;
+    height: 90px;
+}
+
+/* Glasses */
+img[src*="glasses"] {
+    width: 60px;
+    height: 30px;
+}
+
+/* Mouths smaller */
+img[src*="mouth"] {
+    width: 30px;
+    height: 15px;
+}
+
+/* Shirts bigger than before */
+img[src*="shirt"] {
+    width: 160px;
+    height: 180px;
+}
+
+/* Pants slightly bigger */
+img[src*="pants"] {
+    width: 140px;
+    height: 160px;
+}
+
+/* Shoes bigger */
+img[src*="shoe"] {
+    width: 50px;
+    height: 30px;
+}
+
+#right-column {
+    width: 40%;
+    position: relative;
+    text-align: center;
+}
+
+/* Stickman bigger */
+#stickman {
+    width: 350px;
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+#logo {
+    position: fixed;
+    width: 150px;
+    bottom: 20px;
+    right: 10px;
+}

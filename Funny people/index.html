@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stickman Dress-Up</title>
+<link rel="stylesheet" href="style.css">
+<script src="api.js" defer></script>
+</head>
+<body>
+<div id="container">
+    <!-- Left column: palette -->
+    <div id="left-column">
+        <!-- Eyes -->
+        <img src="eyes_01.png" class="draggable" alt="eyes 1">
+        <img src="eyes_02.png" class="draggable" alt="eyes 2">
+        <img src="eyes_03.png" class="draggable" alt="eyes 3">
+        <img src="eyes_04.png" class="draggable" alt="eyes 4">
+        <img src="eyes_05.png" class="draggable" alt="eyes 5">
+        <img src="eyes_06.png" class="draggable" alt="eyes 6">
+        <img src="eyes_07.png" class="draggable" alt="eyes 7">
+        <img src="eyes_08.png" class="draggable" alt="eyes 8">
+
+        <!-- Face Hair -->
+        <img src="face-hair_01.png" class="draggable" alt="face hair 1">
+        <img src="face-hair_02.png" class="draggable" alt="face hair 2">
+        <img src="face-hair_03.png" class="draggable" alt="face hair 3">
+        <img src="face-hair_04.png" class="draggable" alt="face hair 4">
+        <img src="face-hair_05.png" class="draggable" alt="face hair 5">
+
+        <!-- Glasses (6th added) -->
+        <img src="glasses_01.png" class="draggable" alt="glasses 1">
+        <img src="glasses_02.png" class="draggable" alt="glasses 2">
+        <img src="glasses_03.png" class="draggable" alt="glasses 3">
+        <img src="glasses_04.png" class="draggable" alt="glasses 4">
+        <img src="glasses_05.png" class="draggable" alt="glasses 5">
+        <img src="glasses_06.png" class="draggable" alt="glasses 6">
+
+        <!-- Hair (8 & 9 added) -->
+        <img src="hair_01.png" class="draggable" alt="hair 1">
+        <img src="hair_02.png" class="draggable" alt="hair 2">
+        <img src="hair_03.png" class="draggable" alt="hair 3">
+        <img src="hair_04.png" class="draggable" alt="hair 4">
+        <img src="hair_05.png" class="draggable" alt="hair 5">
+        <img src="hair_06.png" class="draggable" alt="hair 6">
+        <img src="hair_07.png" class="draggable" alt="hair 7">
+        <img src="hair_08.png" class="draggable" alt="hair 8">
+        <img src="hair_09.png" class="draggable" alt="hair 9">
+
+        <!-- Mouth -->
+        <img src="mouth_01.png" class="draggable" alt="mouth 1">
+        <img src="mouth_02.png" class="draggable" alt="mouth 2">
+        <img src="mouth_03.png" class="draggable" alt="mouth 3">
+        <img src="mouth_04.png" class="draggable" alt="mouth 4">
+        <img src="mouth_05.png" class="draggable" alt="mouth 5">
+        <img src="mouth_06.png" class="draggable" alt="mouth 6">
+        <img src="mouth_07.png" class="draggable" alt="mouth 7">
+        <img src="mouth_08.png" class="draggable" alt="mouth 8">
+
+        <!-- Shirts (6th added) -->
+        <img src="shirt_01.png" class="draggable" alt="shirt 1">
+        <img src="shirt_02.png" class="draggable" alt="shirt 2">
+        <img src="shirt_03.png" class="draggable" alt="shirt 3">
+        <img src="shirt_04.png" class="draggable" alt="shirt 4">
+        <img src="shirt_05.png" class="draggable" alt="shirt 5">
+        <img src="shirt_06.png" class="draggable" alt="shirt 6">
+
+        <!-- Pants -->
+        <img src="pants_01.png" class="draggable" alt="pants 1">
+        <img src="pants_02.png" class="draggable" alt="pants 2">
+        <img src="pants_03.png" class="draggable" alt="pants 3">
+        <img src="pants_04.png" class="draggable" alt="pants 4">
+        <img src="pants_05.png" class="draggable" alt="pants 5">
+
+        <!-- Shoes -->
+        <img src="shoe_01_r.png" class="draggable" alt="shoe right 1">
+        <img src="shoe_02_r.png" class="draggable" alt="shoe right 2">
+        <img src="shoe_01_l.png" class="draggable" alt="shoe left 1">
+        <img src="shoe_02_l.png" class="draggable" alt="shoe left 2">
+    </div>
+
+    <!-- Right column: stickman -->
+    <div id="right-column">
+        <img src="stickman.png" id="stickman" alt="stickman">
+    </div>
+</div>
+
+<!-- Logo fixed in corner -->
+<img src="logo.png" id="logo" alt="logo">
+</body>
+</html>
